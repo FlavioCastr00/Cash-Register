@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.main-container h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-div, .footer-div {
+    width: 30%;
+    margin: 5vh auto;
+    text-align: center;
+    border: 2px solid #333;
+    padding: 3vh;
+}
+
+.footer-div {
+    border-radius: 10px;
+}
+
+a {
+    color: #00D9DB;
+}
+
+a:hover {
+    color: #00DB4A;
+}
+
+.footer-div button {
+    margin-top: 2vh;
+    width: 30%;
+    background-color: #d6d6d6;
+    border: 2px solid #333;
+    padding: 5px;
+}
+
+.footer-div button:hover {
+    background-color: #333;
+    color: #d6d6d6;
+}
+
+.client-side,
+.cash-register-side,
+.title-div,
+.footer-div {
+    background-color: #f8f8f8;
+    font-size: 2vh;
+}
+
+/* Common styles for both sides */
+.client-side,
+.cash-register-side {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 30%;
+    min-height: 40vh;
+    border-radius: 10px;
+}
+
+.change-div, .register-container {
+    border: 2px solid #333;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Client side style*/
+.client-side {
+    box-shadow: -10px 10px 5px #00D9DB;
+}
+
+.client-side .input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+/*Cash Register Side Style*/
+.cash-register-side {
+    box-shadow: 10px 10px 5px #00DB4A;
+}
+
+.price-div {
+    border: 2px solid #00DB4A;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+/* Additional styling for inputs and buttons */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.main-container button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #00D9DB;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.main-container button:hover {
+    background-color: #00b0b2;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #121212; /* Dark background */ 
+}

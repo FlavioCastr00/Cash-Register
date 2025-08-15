@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cash Register</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="title-div">
+            <h1>Cash Register Project</h1>
+            <p>by:</p>
+            <h3>Flávio Henrique</h3>
+        </div>
+
+        <div class="main-container">
+
+            <div class="client-side">
+                <h3>Client:</h3>
+                <p>Enter money from client:</p>
+                <div class="input-div">
+                    <input type="number" id="cash">
+                    <button id="purchase-btn">Purchase</button>
+                    <div class="change-div">
+                        <h3>Change:</h3>
+                        <div id="change-due"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cash-register-side">
+                <h3>Cash Register:</h3>
+                <p>Price:</p>
+                <div class="price-div">
+                    <p id="price"></p>
+                </div>
+                <div class="register-container">
+                    <h3>Cash in Drawer:</h3>
+                    <div id="cash-in-register"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-div">
+            <p>Visit my <a href="https://github.com/FlavioCastr00/" target="_blank">Git Hub!</a></p>
+            <button id="dark-mode-btn">Dark Mode</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
